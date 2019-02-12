@@ -1,0 +1,11 @@
+commit b35cda97123888772bdb31048172b872668137b5 (HEAD -> master)
+Author: micantia <saylos14082000@gmail.com>
+Date:   Tue Feb 12 15:52:05 2019 +0300
+
+    add task1/status.txt
+
+commit b8ba8a822561fe3a2b47006477c8276946576398
+Author: micantia <saylos14082000@gmail.com>
+Date:   Tue Feb 12 15:48:23 2019 +0300
+
+    add .gitignore
