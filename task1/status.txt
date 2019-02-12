@@ -15,26 +15,3 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
         task1/
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-
-
-commit 87f2862106577360c34f9b6f13ce60767ae84e6a (HEAD -> master, origin/master)
-Author: micantia <saylos14082000@gmail.com>
-Date:   Tue Feb 12 15:54:13 2019 +0300
-
-    add task1/log.txt
-
-commit b35cda97123888772bdb31048172b872668137b5
-Author: micantia <saylos14082000@gmail.com>
-Date:   Tue Feb 12 15:52:05 2019 +0300
-
-    add task1/status.txt
-
-commit b8ba8a822561fe3a2b47006477c8276946576398
-Author: micantia <saylos14082000@gmail.com>
-Date:   Tue Feb 12 15:48:23 2019 +0300
-
-    add .gitignore
-
