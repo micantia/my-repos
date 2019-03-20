@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memegem | Create ur meme</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/feed.css">
+    <script src="js/dynamicScroll.js"></script>
+    <script src="js/posts.js"></script>
+    <script src="js/PostsList.js"></script>
+
+</head>
+<body onload="iv.loadPosts()" >
+<div id="page-layout">
+    <div id="page-header">
+        <div id="header-inner-content">
+            <div id="site-logo" class="fl_l">
+                <a href="#"><span class="logo">Memegen</span></a>
+                <span class="mini-desc">Dunk stuff tradeplace</span>
+            </div>
+            <div id="actions" class="fl_r">
+                <div id="sign-in-btn">
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="page-content">
+        <div id="search-field">
+            <input type="text" class="search-input" placeholder="Search for meme or users">
+        </div>
+        <div id="feed" class="fl_l">
+            <div class="column-heading">
+                <h1>Posts</h1>
+            </div>
+            <div id="posts" >
+
+            </div>
+            <div id="load-more-btn" class="big-button" onclick="iv.loadMore()">
+                Load more
+            </div>
+        </div>
+        <div id="filter-box" class="fl_r box">
+            <p class="heading">
+                Add Filter
+            </p>
+            <form action="" autocomplete="off">
+                <p class="row">
+                    <select class="input">
+                        <option selected value="1">Sort By new</option>
+                        <option value="2">Sort By rating</option>
+                        <option value="3">Sort By Date</option>
+                    </select>
+                </p>
+                <p class="row">
+                    <input type="date" class="input">
+                </p>
+                <p class="row">
+                    <input type="text" class="input" placeholder="Author, ex. micantia" id="author-input">
+                </p>
+                <p class="row">
+                    <input type="text" class="input" placeholder="Hashtags, ex #puppies">
+                </p>
+                <p class="row">
+                    <button class="big-button"> Apply filter</button>
+                </p>
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="page-footer">
+        <div id="footer-inner-content">
+            <p class="copyright">
+                Учебная практика. 2 курс 7 группа, Нестеренко Александр
+                <br>
+                saylos14082000@gmail.com
+                <br>
+                Last modified: 06.03.2019
+                <br>
+                Memegen
+
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="js/IndexView.js"></script>
+
+<script src="js/filter.js"></script>
+</html>
