@@ -1,0 +1,140 @@
+#page-content {
+    max-width: 800px;
+    margin: 115px auto;
+    position: relative;
+}
+#page-content #search-field {
+    margin-bottom: 40px;
+}
+#page-content #search-field input[type=text].search-input {
+    display: block;
+    width: 733px;
+    padding: 15px 15px 15px 50px;
+    background: url("../res/search-icon.png")  no-repeat 13px 13px #ebebeb;
+    border: 1px solid #aaaaaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+#page-content #search-field input[type=text].search-input:focus {
+    border: 1px solid #777575;
+}
+
+#page-content #feed {
+    width: 510px;
+}
+
+#page-content #feed .feed-row{
+    margin-bottom: 40px;
+}
+#page-content #feed .feed-row img{
+    max-width: 508px;
+    border:  1px solid #cecece;
+    border-bottom: 0;
+}
+#page-content #feed .feed-row .post-info {
+    border: 2px solid #ffa382;
+    border-top: 0;
+    background: #ffffff;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+    margin-top: -5px;
+    -webkit-box-shadow: 0 5px 0 #b3b3b3;
+    -moz-box-shadow: 0 5px 0 #b3b3b3;
+    box-shadow: 0 5px 0 #b3b3b3;
+}
+#page-content #feed .feed-row .post-info p.author{
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 5px;
+}
+
+#page-content #feed .feed-row .post-info p.author a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+#page-content #feed .feed-row .post-info p.author span.date{
+    color: #b3b3b3;
+    font-size: 12px;
+}
+#page-content #feed .feed-row .post-info p.post-description {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #444444;
+}
+#page-content #feed .feed-row .post-info .post-hashtags {}
+#page-content #feed .feed-row .post-info .post-actions {
+    padding: 0 5px;
+    height: 20px;
+}
+#page-content #feed .feed-row .post-info .post-actions .action-btn {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+#page-content #feed .feed-row .post-info .post-actions .post-rating {
+    display: inline-block;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+#page-content #feed #load-more-btn {
+    line-height: 50px;
+}
+#page-content #filter-box {
+    margin-top: 63px;
+    width: 238px;
+    border: 1px solid #d6d6d6;
+    padding: 10px 10px 20px;
+    right: 0;
+}
+#page-content #filter-box .heading{
+    font-size: 18px;
+}
+#page-content #filter-box .row {
+    margin-top: 15px;
+    text-align: center;
+}
+#page-content #filter-box select{
+    width: 220px;
+    padding: 7px;
+
+}
+#page-content #filter-box input{
+    width: 206px;
+    height: 32px;
+    padding: 0 5px;
+}
+#page-content #filter-box button {
+    width: 220px;
+    height: 32px;
+}
+
+#page-content #filter-box #author-prompt {
+    position: absolute;
+    background: #ffffff;
+    top: 0;
+    width: 206px;
+    height: 50px;
+     -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+}
+
+#page-content #filter-box .input {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #d6d6d6;
+}
+
+#page-content #filter-box .input:focus{
+    border: 1px solid #aaaaaa;
+}
