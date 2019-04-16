@@ -1,0 +1,51 @@
+#page-content { 
+	width: 400px;
+	margin: 115px auto;
+}
+
+#page-content #login-box{}
+#page-content #login-box #box-wrapper {
+	border: 1px solid #d6d6d6;
+	padding: 0 20px 30px;
+}
+#page-content #login-box #box-wrapper #error-msg {
+	padding: 20px;
+	background: #ff6f6f;
+	display: none;
+	color: #ffffff;
+	margin: 20px 8px 0;
+}
+#page-content #login-box #box-wrapper p.input-row {
+	width: 360px;
+	text-align: center;
+	margin-top: 30px;
+}
+#page-content #login-box #box-wrapper p.input-row input {
+	padding: 15px 20px;
+	width: 300px;
+	border-radius: 4px;
+	border: 1px solid #d6d6d6;
+	background: #f7f6f6;
+	outline: none;
+}
+#page-content #login-box #box-wrapper p.input-row #user-submit {
+	background: #ffa382;
+	color: #ffffff;
+	width: 340px;
+	border: 1px solid #ffc3ae;
+	-webkit-box-shadow: 0 5px 0 #ffc3ae;
+    -moz-box-shadow: 0 5px 0 #ffc3ae;
+    box-shadow: 0 5px 0 #ffc3ae;
+}
+#page-content #login-box #box-wrapper p.input-row #user-submit:hover {
+	cursor: pointer;
+}
+#page-content #login-box #box-wrapper p.reg-prompt {
+	text-align: center;
+	font-size: 14px;
+	color: #c0c0c0;
+}
+#page-content #login-box #box-wrapper p.reg-prompt a {
+	color: #ffa382;
+	text-decoration: none;
+}

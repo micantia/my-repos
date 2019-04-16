@@ -1,4 +1,4 @@
-class IndexView {
+class PostsView {
 
     constructor(PostsList) {
         this.postsList = PostsList;
@@ -115,4 +115,4 @@ class IndexView {
 
 }
 
-let iv = new IndexView(pl);
+let pv = new PostsView(pl);

@@ -51,16 +51,23 @@ body{
 #page-header #header-inner-content #actions{
     line-height: 75px;
 }
-
-#page-header #header-inner-content #sign-in-btn {
+#page-header #header-inner-content #actions div {
+    display: inline-block;
+    margin-left: 10px;
     padding: 0 35px 0 0;
+}
+#page-header #header-inner-content #add-post-btn {
+    background: url("../res/plus.png") center right 1px no-repeat;
+}
+#page-header #header-inner-content #sign-in-btn {
+    
     background: url("../res/user-icon.png") center right 1px no-repeat;
 }
-#page-header #header-inner-content #sign-in-btn a{
+#page-header #header-inner-content div a{
     text-decoration: none;
     color: #444444;
 }
-#page-header #header-inner-content #sign-in-btn a:hover{
+#page-header #header-inner-content div a:hover{
     text-decoration: underline;
 }
 

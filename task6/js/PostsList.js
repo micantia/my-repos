@@ -71,6 +71,7 @@ class PostsList{
             }
             this.array.push(post);
             this.array.sort(this.sortByDate);
+            LSPosts.set(this.array);
             return true;
         }
         else {
@@ -92,6 +93,7 @@ class PostsList{
                 notValidatedPosts.push(posts[i]);
             }
         }
+        LSPosts.set(this.array);
 
         return notValidatedPosts;
 
@@ -112,13 +114,16 @@ class PostsList{
         if(post.hashtags) {
             this.array[index].hashtags = post.hashtags;
         }
+        LSPosts.set(this.array);
         return true;
     };
     remove = (id) => {
         if(typeof id == "string" && id.valueOf() >= 0) {
             this.array.splice(this.array.findIndex(item => item.id === id), 1);
+            LSPosts.set(this.array);
             return true;
         }
+        
         return false;
     };
     static validate = (post) => {

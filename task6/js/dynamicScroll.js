@@ -1,4 +1,4 @@
-window.onscroll = () => {
+		window.onscroll = () => {
 
 	let scrolled = window.pageYOffset;
 	let filterBox = document.getElementById("filter-box");
