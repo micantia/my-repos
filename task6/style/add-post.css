@@ -1,0 +1,67 @@
+#page-content #add-edit-form-wrapper{ 
+	width: 800px;
+	margin: 115px auto;
+}
+#page-content #add-edit-form-wrapper #add-edit-form {
+	border: 1px solid #c0c0c0;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #img {
+	padding: 20px;
+	text-align: center;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #img img {
+	max-width: 760px;
+	height: 300px;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #actions {
+	background: #f7f6f6;
+	padding: 10px 20px;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #actions button {
+	background: #ffa382;
+	border: 0;
+	color: #ffffff;
+	padding: 5px 15px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #actions button:hover {
+	cursor: pointer;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #text-inputs {
+
+}
+#page-content #add-edit-form-wrapper #add-edit-form #text-inputs textarea {
+	width: 778px;
+	border: 0;
+	outline: 0;
+	resize: none;
+	height: 200px;
+	padding: 10px;
+	background: #f7f6f6;
+	border-bottom: 1px solid #c0c0c0;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #text-inputs #hashtags {
+	width: 778px;
+	padding: 20px;
+
+}
+#page-content #add-edit-form-wrapper #add-edit-form #text-inputs #hashtags input[type=text] {
+	border-radius: 4px;
+	border: 1px solid #aaaaaa;
+	padding: 5px 10px;
+	background: #f7f6f6;
+	margin-left: 10px;
+	width: 630px;
+	outline: 0;
+}
+#page-content #add-edit-form-wrapper #add-edit-form #text-inputs #hashtags #display {
+	margin-top: 20px;
+}
+#page-content #add-edit-form-wrapper #submit {
+	margin-top: 20px;
+	line-height: 50px;
+	font-weight: bold;
+}
